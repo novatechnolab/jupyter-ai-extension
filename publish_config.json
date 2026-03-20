@@ -2,8 +2,8 @@
   "project_name": "Jupyter AI Extension",
   "version": "1.0.0",
   "description": "Multi-LLM support for Jupyter Notebook (OpenAI, Claude, Gemini)",
-  "github_repo": "yourusername/jupyter-ai-extension",
-  "github_url": "https://github.com/yourusername/jupyter-ai-extension",
+  "github_repo": "novatechnolab/jupyter-ai-extension",
+  "github_url": "https://github.com/novatechnolab/jupyter-ai-extension",
   "devto_title": "Jupyter AI Extension - Multi-LLM Support",
   "devto_tags": [
     "jupyter",
