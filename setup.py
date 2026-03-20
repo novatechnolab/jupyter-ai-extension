@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="jupyterai-ext",
-    version="1.0.0",
+    name="jupyter-ai-extension",
+    version="1.0.1",
     author="Nova Technolab",
     # ADD THESE TWO LINES:
     license="MIT",
