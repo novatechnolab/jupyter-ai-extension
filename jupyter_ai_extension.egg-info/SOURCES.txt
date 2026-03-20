@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 jupyter_ai_extension/__init__.py
