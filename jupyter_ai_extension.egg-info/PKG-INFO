@@ -1,0 +1,102 @@
+Metadata-Version: 2.4
+Name: jupyter-ai-extension
+Version: 1.0.0
+Summary: Multi-LLM support for Jupyter Notebook (OpenAI, Claude, Gemini)
+Home-page: https://github.com/novatechnolab/jupyter-ai-extension
+Author: Nova Technolab
+Author-email: contact@novatechnolab.com
+Project-URL: Bug Reports, https://github.com/novatechnolab/jupyter-ai-extension/issues
+Project-URL: Source, https://github.com/novatechnolab/jupyter-ai-extension
+Keywords: jupyter notebook ai llm openai claude gemini
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter>=1.0.0
+Requires-Dist: ipython>=7.0.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: anthropic>=0.7.0
+Requires-Dist: google-generativeai>=0.3.0
+Requires-Dist: requests>=2.28.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Jupyter AI Extension
+
+Multi-LLM support for Jupyter notebooks with OpenAI, Claude, and Google Gemini.
+
+## Features
+
+- **Multi-LLM Support**: Works with OpenAI (GPT-4), Anthropic Claude, and Google Gemini
+- **Simple Configuration**: One-line setup for each provider
+- **Chat & Completion Modes**: Use both conversational and completion APIs
+- **Conversation History**: Automatic conversation tracking
+- **Customizable Settings**: Control temperature, max tokens, and more
+- **Production Ready**: Full error handling and logging
+
+## Installation
+```bash
+pip install jupyter-ai-extension
+```
+
+## Quick Start
+```python
+from jupyter_ai_extension import JupyterAIExtension
+
+ai = JupyterAIExtension()
+ai.configure("openai", api_key="sk-...")
+response = ai.generate("Explain machine learning")
+print(response)
+```
+
+## Configuration
+
+### OpenAI
+```python
+ai.configure("openai", api_key="sk-...", model="gpt-4-turbo")
+```
+
+### Claude
+```python
+ai.configure("claude", api_key="sk-ant-...", model="claude-opus-4-1")
+```
+
+### Gemini
+```python
+ai.configure("gemini", api_key="AIzaSy...", model="gemini-2.0-flash")
+```
+
+## API Methods
+
+- `configure(provider_name, **kwargs)` - Configure the provider
+- `generate(prompt)` - Generate text completion
+- `chat(message)` - Send chat message
+- `clear_history()` - Clear conversation
+- `set_settings(**kwargs)` - Customize settings
+- `show_settings()` - View current settings
+- `list_providers()` - List available providers
+
+## License
+
+MIT License
+
+## Support
+
+GitHub: https://github.com/novatechnolab/jupyter-ai-extension
+
+Made with ❤️ by Nova Technolab
