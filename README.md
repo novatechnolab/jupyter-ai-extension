@@ -55,7 +55,9 @@ ai.configure("gemini", api_key="AIzaSy...", model="gemini-2.0-flash")
 
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Nova Technolab
 
 ## Support
 
