@@ -1,0 +1,27 @@
+{
+  "project_name": "Jupyter AI Extension",
+  "version": "1.0.0",
+  "description": "Multi-LLM support for Jupyter Notebook (OpenAI, Claude, Gemini)",
+  "github_repo": "yourusername/jupyter-ai-extension",
+  "github_url": "https://github.com/yourusername/jupyter-ai-extension",
+  "devto_title": "Jupyter AI Extension - Multi-LLM Support",
+  "devto_tags": [
+    "jupyter",
+    "python",
+    "ai",
+    "llm"
+  ],
+  "devto_article_path": "articles/announcement.md",
+  "twitter_thread": [
+    "\ud83d\ude80 Just launched Jupyter AI Extension! Use OpenAI, Claude & Gemini in your notebooks with a simple Python API.",
+    "Features: \u2713 Multi-LLM support \u2713 One-line setup \u2713 Chat mode \u2713 Production-ready",
+    "Get started: pip install jupyter-ai-extension",
+    "Open source, fully documented. GitHub: https://github.com/yourusername/jupyter-ai-extension"
+  ],
+  "linkedin_post": "Excited to announce Jupyter AI Extension! Seamlessly use OpenAI, Claude, and Google Gemini in your Jupyter notebooks. Open source, fully documented.",
+  "docker_username": "yourusername",
+  "docker_image_name": "jupyter-ai-extension",
+  "product_hunt_tagline": "Multi-LLM support for Jupyter notebooks",
+  "release_notes": "Initial release with support for OpenAI, Claude, and Gemini. Fully documented with examples."
+}
+
