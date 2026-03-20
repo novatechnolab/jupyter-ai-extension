@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: jupyter-ai-extension
-Version: 1.0.0
+Version: 1.0.1
 Summary: Multi-LLM support for Jupyter Notebook (OpenAI, Claude, Gemini)
 Home-page: https://github.com/novatechnolab/jupyter-ai-extension
 Author: Nova Technolab
@@ -8,7 +8,6 @@ Author-email: contact@novatechnolab.com
 License: MIT
 Project-URL: Bug Reports, https://github.com/novatechnolab/jupyter-ai-extension/issues
 Project-URL: Source, https://github.com/novatechnolab/jupyter-ai-extension
-Project-URL: License, https://github.com/novatechnolab/jupyter-ai-extension/blob/main/LICENSE
 Keywords: jupyter notebook ai llm openai claude gemini
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.8
@@ -18,10 +17,6 @@ Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Classifier: Development Status :: 4 - Beta
-Classifier: Intended Audience :: Developers
-Classifier: Topic :: Software Development :: Libraries :: Python Modules
-Classifier: Framework :: Jupyter
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
