@@ -1,3 +1,7 @@
+"""
+Setup configuration for Jupyter AI Extension
+"""
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -12,6 +16,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/novatechnolab/jupyter-ai-extension",
+    license="MIT",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -22,6 +27,10 @@ setup(
         "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Framework :: Jupyter",
     ],
     python_requires=">=3.8",
     install_requires=[
@@ -36,5 +45,6 @@ setup(
     project_urls={
         "Bug Reports": "https://github.com/novatechnolab/jupyter-ai-extension/issues",
         "Source": "https://github.com/novatechnolab/jupyter-ai-extension",
+        "License": "https://github.com/novatechnolab/jupyter-ai-extension/blob/main/LICENSE",
     },
 )
