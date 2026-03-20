@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: jupyter-ai-extension
-Version: 1.0.1
+Version: 1.0.0
 Summary: Multi-LLM support for Jupyter Notebook (OpenAI, Claude, Gemini)
 Home-page: https://github.com/novatechnolab/jupyter-ai-extension
 Author: Nova Technolab

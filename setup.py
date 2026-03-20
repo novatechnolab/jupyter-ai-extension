@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="jupyter-ai-extension",
-    version="1.0.1",
+    version="1.0.0",
     author="Nova Technolab",
     # ADD THESE TWO LINES:
     license="MIT",
