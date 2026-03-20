@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jupyter_ai_extension/__init__.py
+jupyter_ai_extension/extension.py
+jupyter_ai_extension/llm_providers.py
+jupyterai_ext.egg-info/PKG-INFO
+jupyterai_ext.egg-info/SOURCES.txt
+jupyterai_ext.egg-info/dependency_links.txt
+jupyterai_ext.egg-info/requires.txt
+jupyterai_ext.egg-info/top_level.txt
